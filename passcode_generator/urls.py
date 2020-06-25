@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from generator import views
+from generator import views # Added custom
 
 urlpatterns = [
     path('', views.home),
